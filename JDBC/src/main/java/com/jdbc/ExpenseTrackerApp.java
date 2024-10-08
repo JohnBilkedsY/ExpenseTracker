@@ -18,13 +18,13 @@ public class ExpenseTrackerApp {
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); // consume new line
 
             switch (choice) {
                 case 1:
                     System.out.print("Amount: ");
                     double amount = scanner.nextDouble();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
                     System.out.print("Description: ");
                     String description = scanner.nextLine();
                     System.out.print("Date (YYYY-MM-DD): ");
@@ -41,10 +41,10 @@ public class ExpenseTrackerApp {
                 case 3:
                     System.out.print("Expense ID to update: ");
                     int idToUpdate = scanner.nextInt();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
                     System.out.print("New Amount: ");
                     double newAmount = scanner.nextDouble();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
                     System.out.print("New Description: ");
                     String newDescription = scanner.nextLine();
                     System.out.print("New Date (YYYY-MM-DD): ");
