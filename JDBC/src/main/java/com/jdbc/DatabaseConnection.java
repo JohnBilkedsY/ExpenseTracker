@@ -7,7 +7,7 @@ public class DatabaseConnection {
 	
     private static final String URL = "jdbc:mysql://localhost:3306/expense_tracker";
     private static final String USER = "root"; 
-    private static final String PASSWORD = "OracleMysql1.1"; 
+    private static final String PASSWORD = "******"; // your password
 
     public static Connection getConnection() throws SQLException {
     	
