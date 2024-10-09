@@ -12,7 +12,7 @@ public class JDBCweb {
 	try {
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	   
-	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/task","root","OracleMysql1.1");
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/task","root","******");
 	   
 	Statement stmt = con.createStatement();
 	ResultSet rs = stmt.executeQuery("select * from countries");
